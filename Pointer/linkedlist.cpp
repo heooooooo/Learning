@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 struct Node{
@@ -190,4 +189,6 @@ int main(){
     list.takeDataAtEnd();
     list.takeDataAtPosition(2);
     list.takeDataAtPosition(4);
+
+    list.deleteAtBeginning();
 }
